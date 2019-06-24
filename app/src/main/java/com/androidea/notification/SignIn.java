@@ -1,4 +1,4 @@
-package com.androidea.firebasechattutorial;
+package com.androidea.notification;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.androidea.firebasechattutorial.R;
+import com.androidea.notification.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.FirebaseDatabase;

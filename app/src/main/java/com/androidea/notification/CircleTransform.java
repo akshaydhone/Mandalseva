@@ -1,4 +1,4 @@
-package com.androidea.firebasechattutorial;
+package com.androidea.notification;
 
 import android.content.Context;
 import android.graphics.Bitmap;

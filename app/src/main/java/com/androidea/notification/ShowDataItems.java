@@ -1,4 +1,4 @@
-package com.androidea.firebasechattutorial;
+package com.androidea.notification;
 
 /**
  * Created by Administrator on 16-03-2017.

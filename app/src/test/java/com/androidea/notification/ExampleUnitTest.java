@@ -1,4 +1,4 @@
-package com.androidea.firebasechattutorial;
+package com.androidea.notification;
 
 import org.junit.Test;
 

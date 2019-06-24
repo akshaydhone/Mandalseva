@@ -1,4 +1,4 @@
-package com.androidea.firebasechattutorial;
+package com.androidea.notification;
 
 import android.Manifest;
 import android.app.ProgressDialog;
@@ -17,7 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.androidea.firebasechattutorial.R;
+import com.androidea.notification.R;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.firebase.client.Firebase;
@@ -82,7 +82,7 @@ public class UploadInfo extends AppCompatActivity {
 
         //DatabaseReference mdatabaseRef = FirebaseDatabase.getInstance().getReference();
         mRoofRef = new Firebase("https://fir-tutorial-5800f.firebaseio.com/").child("User_Details").push();  // Push will create new child every time we upload data
-        mStorage = FirebaseStorage.getInstance().getReferenceFromUrl("gs://fir-tutorial-5800f.appspot.com/");
+        mStorage = FirebaseStorage.getInstance().getReferenceFromUrl("gs://notification-18ea9.appspot.com/");
 
 
 

@@ -1,4 +1,4 @@
-package com.androidea.firebasechattutorial;
+package com.androidea.notification;
 
 import android.content.Intent;
 import android.os.Bundle;

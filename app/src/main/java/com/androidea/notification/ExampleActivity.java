@@ -1,4 +1,4 @@
-package com.androidea.firebasechattutorial;
+package com.androidea.notification;
 
 import android.app.Activity;
 import android.app.AlertDialog;
