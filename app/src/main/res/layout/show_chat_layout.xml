@@ -4,7 +4,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical"
-android:background="#E5E5E5">
+android:background="@drawable/rest">
 
 <android.support.v7.widget.RecyclerView
     android:layout_marginLeft="2dp"
@@ -27,7 +27,7 @@ android:background="#E5E5E5">
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text='I have SignedUp two users, "User1" and "User2" for this demo.  And loggedIn these Users to another device or Emulator to test chatting'
+        android:text='Daar Maat memo,Ye mere hi accounts hai which i have used for testing..Lolz'
         android:textColor="@android:color/black"
         android:textSize="16sp"
         android:textStyle="bold" />

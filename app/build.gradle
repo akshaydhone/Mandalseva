@@ -1,8 +1,6 @@
-
-
 buildscript {
     repositories {
-        maven { url 'https://plugins.gradle.org/m2/'}
+        maven { url 'https://plugins.gradle.org/m2/' }
     }
     dependencies {
         classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.11.0, 0.99.99]'
@@ -25,14 +23,14 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "com.androidea.notification"
+        applicationId "com.akshay.notification"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        manifestPlaceholders = [onesignal_app_id               : "c44efbd4-4ce0-4208-bd9c-55043878bc85",
+        manifestPlaceholders = [onesignal_app_id               : "7fa22ac6-3189-4952-8f7c-ced756afa501",
                                 // Project number pulled from dashboard, local value is ignored.
                                 onesignal_google_project_number: "REMOTE"]
 
@@ -59,8 +57,6 @@ dependencies {
     implementation 'com.android.support:design:25.3.1'
     implementation 'com.android.support:support-v4:25.3.1'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-
-
 
     // Foe Firebase
     implementation 'com.firebase:firebase-client-android:2.4.0'
