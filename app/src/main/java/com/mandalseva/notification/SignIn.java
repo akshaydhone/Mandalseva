@@ -1,4 +1,4 @@
-package com.akshay.notification;
+package com.mandalseva.notification;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.akshay.notification.R;
+import com.mandalseva.notification.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.FirebaseDatabase;
@@ -28,7 +28,7 @@ import java.util.Scanner;
  */
 
 public class SignIn extends AppCompatActivity {
-    Button signout,upload_bttn,showData,notification,chat;
+    Button signout,upload_bttn,showData,notification,chat,viewdata;
     private FirebaseAuth mAuth;
     TextView username;
 
@@ -47,6 +47,7 @@ public class SignIn extends AppCompatActivity {
 
 
         signout = (Button)findViewById(R.id.signout);
+        viewdata=(Button)findViewById(R.id.viewdata);
         username = (TextView) findViewById(R.id.tvName);
         //upload_bttn = (Button)findViewById(R.id.upload);
         //showData = (Button)findViewById(R.id.show_data);
@@ -109,6 +110,16 @@ public class SignIn extends AppCompatActivity {
                 mAuth.signOut();
                 finish();
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            }
+        });
+
+
+        viewdata.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+Intent i=new Intent(SignIn.this,ViewDataMandal.class);
+startActivity(i);
+
             }
         });
 

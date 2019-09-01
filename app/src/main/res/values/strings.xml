@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">YouMeApp</string>
+
+
+
+
+    <string-array name="tag_arraysup1">
+        <item>Select</item>
+        <item>2014"-"15</item>
+        <item>2015"-"16</item>
+        <item>2016"-"17</item>
+        <item>2017"-"18 </item>
+        <item>2018"-"19 </item>
+
+
+    </string-array>
+
 </resources>
+
+

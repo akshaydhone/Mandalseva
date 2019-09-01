@@ -1,4 +1,4 @@
-package com.akshay.notification;
+package com.mandalseva.notification;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

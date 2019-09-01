@@ -1,4 +1,4 @@
-package com.akshay.notification;
+package com.mandalseva.notification;
 
 import android.Manifest;
 import android.app.ProgressDialog;
@@ -17,7 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.akshay.notification.R;
+import com.mandalseva.notification.R;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.firebase.client.Firebase;

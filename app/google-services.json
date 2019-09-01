@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "1032938475078",
-    "firebase_url": "https://akshaychatapp-9188d.firebaseio.com",
-    "project_id": "akshaychatapp-9188d",
-    "storage_bucket": "akshaychatapp-9188d.appspot.com"
+    "project_number": "942778288644",
+    "firebase_url": "https://mandalseva-e78e8.firebaseio.com",
+    "project_id": "mandalseva-e78e8",
+    "storage_bucket": "mandalseva-e78e8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1032938475078:android:c20c54bfee5d0c55",
+        "mobilesdk_app_id": "1:942778288644:android:d927bea8732a0093",
         "android_client_info": {
-          "package_name": "com.akshay.notification"
+          "package_name": "com.mandalseva.notification"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1032938475078-f46i9kai1qb5f4nsm24jep0agd7schfg.apps.googleusercontent.com",
+          "client_id": "942778288644-dmhb3u1o9drcqg1kopf7a7an091a8t7o.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.akshay.notification",
+            "package_name": "com.mandalseva.notification",
             "certificate_hash": "dd83c3f21bce4682175b535457982196093c1c7b"
           }
         },
         {
-          "client_id": "1032938475078-8evqeoof0papfoaulaovht048516inl3.apps.googleusercontent.com",
+          "client_id": "942778288644-q6of8lg80bs3acvai4n8o1mbim9vc6k8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD686-YM7_n_h2X2KIAX8CCGqA-885_4Ck"
+          "current_key": "AIzaSyBmkTyvYXizsqL_rxGgOOsN8_ghlGPGAVA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1032938475078-8evqeoof0papfoaulaovht048516inl3.apps.googleusercontent.com",
+              "client_id": "942778288644-q6of8lg80bs3acvai4n8o1mbim9vc6k8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

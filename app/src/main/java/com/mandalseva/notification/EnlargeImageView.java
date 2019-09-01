@@ -1,4 +1,4 @@
-package com.akshay.notification;
+package com.mandalseva.notification;
 
 import android.content.Intent;
 import android.graphics.Matrix;

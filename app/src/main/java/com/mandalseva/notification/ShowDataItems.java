@@ -1,4 +1,4 @@
-package com.akshay.notification;
+package com.mandalseva.notification;
 
 /**
  * Created by Administrator on 16-03-2017.

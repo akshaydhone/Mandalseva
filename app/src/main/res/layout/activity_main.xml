@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.akshay.notification.MainActivity">
+    tools:context="com.mandalseva.notification.MainActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/bgHeader"
@@ -20,7 +20,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="40dp"
         android:elevation="5dp"
-        android:text="YouMeApp"
+        android:text="MandalSeva"
         android:textColor="@color/colorWhite"
         android:textSize="17sp" />
 

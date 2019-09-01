@@ -13,9 +13,6 @@ repositories {
 }
 
 
-
-
-
 apply plugin: 'com.android.application'
 
 android {
@@ -23,7 +20,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "com.akshay.notification"
+        applicationId "com.mandalseva.notification"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -79,6 +76,8 @@ dependencies {
     implementation 'com.google.android.gms:play-services-gcm:10.2.4'
     // Required for geotagging
     implementation 'com.google.android.gms:play-services-location:10.2.4'
+    implementation 'com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1'
+
 
 }
 
